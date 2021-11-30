@@ -9,12 +9,17 @@ Jogo 2D criado usando C++ e OpenGL
 * O jogo acaba por 3 possibilidades: 
   * Se o jogador destruir todos os inimigos (realizando disparos)
   * Se os inimigos atingirem o jogador 3 vezes 
-  * Se os inimigos destruirem todos os prédios
+  * Se os inimigos destruírem todos os prédios
 * O jogo pode ser reiniciado no fim da partida
 
 ## Funcionamento do Jogador
 
 * O jogador pode se mover para esquerda e direita usando os direcionais esquerda e direita do teclado
-* Com os direcionais cima e baixo mudam o angulo do veiculo (e consequentemente o angulo de disparo)
+* Com os direcionais cima e baixo mudam o ângulo do veiculo (e consequentemente o ângulo de disparo)
 * As teclas "b" e "n" alteram a força do disparo.
 * A tecla "ESPAÇO" realiza é usada para realizar disparos.
+
+## Características do Projeto
+
+* Os arquivos de texto presentes no projeto representam os sprites utilizados. Os números representam as cores de cada pixel a ser pintado.
+* O calculo dos disparos é realizado utilizando formulas da física real de disparo de projéteis.
